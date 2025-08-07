@@ -77,7 +77,7 @@
 
     // Date and time picker
     $('.date').datetimepicker({
-        format: 'L'
+        format: 'DD.MM.YYYY'
     });
     $('.time').datetimepicker({
         format: 'LT'

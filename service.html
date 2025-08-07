@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
     <title>КУМСКИЙ Сервис - Услуги</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="автосервис, ремонт авто, диагностика, кузовной ремонт, Чебоксары, услуги" name="keywords">
+    <meta content="Услуги автосервиса Кумский Сервис в Чебоксарах. Диагностика, ремонт двигателя, замена шин, замена масла и многое другое." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -36,7 +36,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Загрузка...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -48,7 +48,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>ул. Примерная, 123, Москва, Россия</small>
+                    <small>Чебоксары бул. Анатолия Миттова, 21А, Чебоксары г-ж 58</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
@@ -58,13 +58,11 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+012 345 6789</small>
+                    <small>+7 (927) 858-17-08</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://t.me/KUMSKIYSTO" target="_blank" title="Telegram Канал"><i class="fab fa-telegram-plane"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://t.me/Oleg_Andriyanovich" target="_blank" title="Написать в Telegram"><i class="far fa-comment-alt"></i></a>
                 </div>
             </div>
         </div>
@@ -75,7 +73,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>CarServ</h2>
+            <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>Кумский Сервис</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -89,9 +87,9 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Страницы</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="booking.html" class="dropdown-item">Запись</a>
-                        <a href="team.html" class="dropdown-item">Специалисты</a>
+                        
                         <a href="testimonial.html" class="dropdown-item">Отзывы</a>
-                        <a href="404.html" class="dropdown-item">404 страница</a>
+                        
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Контакты</a>
@@ -103,7 +101,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-2.jpg);">
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-2.webp);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">Услуги</h1>
@@ -125,7 +123,7 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-primary text-uppercase">// Наши услуги //</h6>
-                <h1 class="mb-5">Ознакомьтесь с нашими услугами</h1>
+                <h1 class="mb-5">Наши популярные услуги</h1>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-4">
@@ -151,7 +149,7 @@
                 <div class="col-lg-8">
                     <div class="tab-content w-100">
                         <div class="tab-pane fade show active" id="tab-pane-1">
-                            <div class="row g-4">
+                            <div class="row g-4" id="diagnostic">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
@@ -159,17 +157,17 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 лет опыта в автосервисе</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <h3 class="mb-3">Комплексная диагностика автомобиля</h3>
+                                    <p class="mb-4">Наша команда предоставляет точные диагностические услуги для выявления любых проблем с вашим автомобилем. Мы используем передовые инструменты для обеспечения точной и эффективной диагностики.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Качественное обслуживание</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Опытные работники</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Современное оборудование</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
-                            <div class="row g-4">
+                            <div class="row g-4" id="engine">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-2.jpg"
@@ -177,17 +175,17 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 лет опыта в автосервисе</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <h3 class="mb-3">Профессиональное обслуживание двигателя</h3>
+                                    <p class="mb-4">Наши специалисты обеспечат качественное обслуживание двигателя вашего автомобиля, используя современные технологии и материалы для продления его срока службы.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Качественное обслуживание</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Опытные работники</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Современное оборудование</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
-                            <div class="row g-4">
+                            <div class="row g-4" id="tires">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-3.jpg"
@@ -195,17 +193,17 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 лет опыта в автосервисе</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <h3 class="mb-3">Быстрая и качественная замена шин</h3>
+                                    <p class="mb-4">Мы предлагаем быструю и профессиональную замену шин, а также балансировку колес для обеспечения вашей безопасности и комфорта на дороге.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Качественное обслуживание</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Опытные работники</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Современное оборудование</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-4">
-                            <div class="row g-4">
+                            <div class="row g-4" id="oil">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
@@ -213,12 +211,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 лет опыта в автосервисе</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <h3 class="mb-3">Надежная замена масла</h3>
+                                    <p class="mb-4">Регулярная замена масла — залог долгой и бесперебойной работы двигателя. Мы используем только рекомендованные производителями масла и фильтры.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Качественное обслуживание</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Опытные работники</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Современное оборудование</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3">Читать далее<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +235,7 @@
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
                         <h1 class="text-white mb-4">Сертифицированный и отмеченный наградами поставщик услуг по ремонту автомобилей</h1>
-                        <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                        <p class="text-white mb-0">Мы стремимся предоставлять нашим клиентам лучший сервис по ремонту автомобилей. Наша команда экспертов всегда готова помочь вам с любыми потребностями вашего автомобиля. Запишитесь на прием сегодня и почувствуйте разницу.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -292,34 +290,34 @@
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
                     <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Имя клиента</h5>
-                    <p>Профессия</p>
+                    <h5 class="mb-0">Елена Иванова</h5>
+                    <p>Диагностика подвески</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Кумский сервис превзошел все мои ожидания. Персонал был дружелюбным, и мой автомобиль теперь работает как новый. Очень рекомендую их услуги!</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Имя клиента</h5>
-                    <p>Профессия</p>
+                    <h5 class="mb-0">Александр Петров</h5>
+                    <p>Замена масла в двигателе</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Отличный сервис! Все сделали быстро и качественно. Машина едет как новая. Обязательно приеду еще.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Имя клиента</h5>
-                    <p>Профессия</p>
+                    <h5 class="mb-0">Дмитрий Сидоров</h5>
+                    <p>Шиномонтаж и балансировка</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Очень доволен работой мастеров. Все объяснили, показали, сделали на совесть. Теперь только к вам!</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Имя клиента</h5>
-                    <p>Профессия</p>
+                    <h5 class="mb-0">Анна Кузнецова</h5>
+                    <p>Ремонт тормозной системы</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Спасибо за отличную работу! Быстро, профессионально и по разумной цене. Рекомендую всем!</p>
                     </div>
                 </div>
             </div>
@@ -334,20 +332,18 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Адрес</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>ул. Примерная, 123, Москва, Россия</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Чебоксары бул. Анатолия Миттова, 21А, Чебоксары г-ж 58</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+7 (927) 858-17-08</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@кумский-сервис.рф</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://t.me/KUMSKIYSTO" target="_blank" title="Telegram Канал"><i class="fab fa-telegram-plane"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://t.me/Oleg_Andriyanovich" target="_blank" title="Написать в Telegram"><i class="far fa-comment-alt"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Часы работы</h4>
                     <h6 class="text-light">Понедельник - Пятница:</h6>
-                    <p class="mb-4">09.00 - 21.00</p>
+                    <p class="mb-4">09.00 - 19.00</p>
                     <h6 class="text-light">Суббота - Воскресенье:</h6>
                     <p class="mb-0">09.00 - 14.00</p>
                 </div>
@@ -361,7 +357,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Рассылка</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Подпишитесь на нашу рассылку, чтобы первыми узнавать о специальных предложениях и акциях.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Ваш email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Подписаться</button>
@@ -373,14 +369,11 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Кумский сервис</a>, 2025 Все права защищены.
+                                                &copy; <a class="border-bottom" href="#">Кумский сервис</a>, 2025 Все права защищены.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="">Главная</a>
-                            <a href="">Куки</a>
-                            <a href="">Помощь</a>
-                            <a href="">ЧаВо</a>
+                            <a href="index.html">Главная</a>
                         </div>
                     </div>
                 </div>
